@@ -58,7 +58,7 @@ def genetic_algorithm(population_size, num_generations, mutation_rate):
     return best_individual, best_fitness
 
 # Run the genetic algorithm
-population_size = 200
+population_size = 100
 num_generations = 1000
 mutation_rate = 0.1
 best_individual, best_fitness = genetic_algorithm(population_size, num_generations, mutation_rate)
